@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Chemical Culture - Contact Us</title>
+
+        <!--Bootstrap CSS link-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+
+        <!--CSS link-->
+        <link rel="stylesheet" href="CSS/Style.css">
+
+        <!--Font awesome link-->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <section class="header">
+            <!--Logo-->
+            <a href="index.html"><img src="LOGO.png"
+                    alt="My Chemical Culture Logo" class="center"></a>
+
+            <!--Navigation bar with red background BOOTSTRAP-->
+            <ul class="nav justify-content-center"
+                style="background-color: #cb0000;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"
+                        href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Catalogue.html">CATALOGUE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ContactUs.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="fa fa-shopping-cart fa-lg"
+                        aria-hidden="true"></a>
+                </li>
+            </ul>
+
+            <!--Angel banner image-->
+			<div class="hero-image">
+                <img src="./Images/Banner-Angel.png" alt="Angel statues">
+            </div>
+
+        </section>
+        <br /> <!--A break between the image banner and heading-->
+
+        <section class="main_content">
+            <h1>CONTACT US</h1>
+        </section>
+
+        <!--First store location and image that links to google maps-->
+		<div class="locations">
+            <div class="map-location">
+                <a href= "https://www.google.co.nz/maps/place/Cuba+Street,+Te+Aro,+Wellington+6011/@-41.2937953,174.7728581,17z/data=!3m1!4b1!4m6!3m5!1s0x6d38afd830cc1b7f:0x270ce184da0cb980!8m2!3d-41.2937953!4d174.775433!16zL20vMGRncWh4?entry=ttu" 
+					target= "_blank"><img src="./Images/TeAro_locations.png" alt="Image"></a>
+            </div>
+            <div class="Location-text">
+                <h2>CUBA ST, TE ARO, WELLINGTON</h2>
+                <p><span class="phone-label">PHONE NUMBER:</span> <span
+                        class="phone-number">0800 36 38 37</span></p>
+            </div>
+        </div>
+        
+		<!--Second store location and image that links to google maps-->
+		<div class="locations">
+            <div class="map-location">
+                <a href= "https://www.google.co.nz/maps/place/The+Base/@-37.7491174,175.2309201,17z/data=!3m1!4b1!4m6!3m5!1s0x6d6d22fd0ab3f235:0xb481e327f4af80fe!8m2!3d-37.7491174!4d175.233495!16s%2Fm%2F0cm9bkv?entry=ttu" 
+					target= "_blank"><img src="./Images/TeRapa_Location.png" alt="Image"></a>
+            </div>
+            <div class="Location-text">
+                <h2>THE BASE TE AWA, HAMILTON</h2>
+                <span class="phone-label">PHONE NUMBER:</span> <span
+                    class="phone-number">0800 26 28 27</span>
+            </div>
+        </div>
+        
+		<!--Third store location and image that links to google maps-->
+		<div class="locations">
+            <div class="map-location">
+                <a href="https://www.google.co.nz/maps/search/syliva+park,+mount+wellington,+auckland/@-36.9189599,174.8346392,16z/data=!3m1!4b1?entry=ttu" target= "_blank"><img src="./Images/SylviaPark_Location.png" 
+					alt="Image"></a>
+            </div>
+            <div class="Location-text">
+                <h2>SYLIVA PARK, MOUNT WELLINGTON, AUCKLAND</h2>
+                <span class="phone-label">PHONE NUMBER:</span> <span
+                    class="phone-number">0800 16 18 17</span>
+            </div>
+        </div>
+
+        <!--Contact form-->
+		<div class="email-form">
+            <h2>Email Us Directly</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email"
+                        placeholder="Your Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="phone"
+                        placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="subject"
+                        placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" rows="5"
+                        placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+            
+			<!--Thank you message when form submitted-->
+			<div id="thank-you-message" style="display: none;">Thanks for
+                contacting us. We will be in touch with you shortly.</div>
+        </div>
+
+
+        <!--Footer-->
+        <footer class="footer-row">
+            <div class="footer-content">
+                <p>2024 My Chemical Culture New Zealand Online. All Rights
+                    Reserved Copyright&#169;. All prices are in NZD & include
+                    GST.</p>
+            </div>
+            <div class="footer-line"></div>
+
+            <!--Links to our social media-->
+			<div class="footer-social">
+                <a href="https://www.facebook.com/" target="_blank"
+                    class="fa fa-facebook-official fa-2x"
+                    aria-hidden="true"></a>
+                <a href="https://twitter.com/?lang-en" target="_blank"
+                    class="fa fa-twitter-square fa-2x" aria-hidden="true"></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"
+                    class="fa fa-instagram fa-2x"></a>
+                <!--Logo in footer-->
+                <a href="index.html"><img src="LOGO.png"
+                        alt="My Chemical Culture Logo" class="logo-size"></a>
+            </div>
+        </footer>
+
+        <!--Bootstrap Java link-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
